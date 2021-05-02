@@ -90,7 +90,6 @@ const UserProvider = (props) => {
       },
       body: JSON.stringify(program),
     });
-    console.log(program);
     return result;
   };
 
