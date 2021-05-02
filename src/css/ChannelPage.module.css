@@ -1,0 +1,119 @@
+.container {
+  text-align: center;
+}
+
+.programContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardStyle {
+  border: none !important;
+}
+
+.channelImage {
+  width: 200px;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.programImage {
+  width: 200px;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.channelStyle {
+  padding: 20px 20px 20px;
+  background: linear-gradient(to bottom, #000000 0%, #ffffff 150%);
+}
+
+.programStyle {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.loadingStyle {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.categoryStyle {
+  cursor: pointer;
+  color: black;
+  padding: 20px 20px 20px;
+  background: white;
+}
+
+.tabla {
+  text-decoration: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  background-color: white !important;
+}
+
+.whitePadding {
+  padding: 10px 10px 10px;
+  background-color: rgb(151, 151, 151);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablabutton {
+  border: none;
+  text-decoration: none;
+  background-color: gray;
+}
+
+.header {
+  color: white;
+}
+
+.heart {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+.heart:hover {
+  cursor: pointer;
+  color: rgb(235, 88, 88);
+}
+
+.programHeart {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.programHeart:hover {
+  cursor: pointer;
+  color: rgb(235, 88, 88);
+}
+
+.imageFrame {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  font-size: 1.5rem;
+  background-color: rgb(104, 104, 104);
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s;
+}
